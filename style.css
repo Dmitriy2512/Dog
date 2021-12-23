@@ -4,17 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(180, 176, 184);
-}
-.mine{
-    width: 39%;
-    height: 70px;
-    background-color: rgb(255, 217, 0);
-    border-radius: 30px;
-    border: 2px solid black;
-    position: relative;
-    top: 300px;
-    margin: auto;
+    background-color: rgb(115, 114, 116);
 }
 .leg_back_1{
     width: 17px;
@@ -27,6 +17,16 @@ body{
     right: 20px;
     top: 60px;
     border-radius:0 0 5px 5px;
+}
+.mine{
+    width: 39%;
+    height: 70px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 30px;
+    border: 2px solid black;
+    position: relative;
+    top: 300px;
+    margin: auto;
 }
 .leg_back_2{
     width: 17px;
@@ -149,17 +149,6 @@ body{
     border: 2px solid black;
     border-top: none;
 }
-.nose{
-    background-color: rgb(255, 217, 0);
-    width: 30px;
-    height: 15px;
-    position: absolute;
-    top: 10px;
-    left: 16px;
-    border: 2px solid rgb(0, 0, 0);
-    border-bottom: none;
-    border-radius: 50% 50% 0 0 / 100% 100% 0 0; 
-}
 .nose::before{
     content: "";
     background-color: rgb(255, 217, 0);
@@ -184,6 +173,17 @@ body{
     border: 2px solid black;
     border-top: none;
 }
+.nose{
+    background-color: rgb(255, 217, 0);
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    border: 2px solid rgb(0, 0, 0);
+    border-bottom: none;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0; 
+}
 .eye_1{
     width: 20px;
     height: 20px;
@@ -202,15 +202,6 @@ body{
     top: -5px;
     left: 40px;
 }
-.eye_1_1{
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: -3px;
-    left: 7px;
-}
 .eye_2_1{
     width: 15px;
     height: 15px;
@@ -220,6 +211,15 @@ body{
     top: -3px;
     left: 44px;
 }
+.eye_1_1{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -3px;
+    left: 7px;
+}
 .nose_1{
     width: 15px;
     height: 10px;
@@ -228,16 +228,6 @@ body{
     position: absolute;
     top: 20px;
     left: 24px;
-}
-.tail{
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    border-radius: 100%;
-    position: absolute;
-    top: -39px;
-    right: -10px;
-    z-index: -3;
 }
 .tail_1{
     width: 40px;
@@ -252,10 +242,20 @@ body{
 .tail_2{
     width: 50px;
     height: 50px;
-    background-color: rgb(180, 176, 184);
+    background-color: rgb(115, 114, 116);
     border-radius: 100%;
     position: absolute;
     top: -49px;
     right: 0;
     z-index: -1;
+}
+.tail{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    top: -39px;
+    right: -10px;
+    z-index: -3;
 }
